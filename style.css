@@ -1,3 +1,9 @@
 body { 
-    background-image:  linear-gradient(black, rgb(145, 145, 145)) ;
+    background-image:linear-gradient(black, rgb(145, 145, 145)) ;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+h1 {
+    font-size: 50pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

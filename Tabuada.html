@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada..</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número: <input type="number" name="numb" id="txn">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()"><br>
+               <!-- Selecione a equação: 
+                <input type="button" value="+" id="equação" onclick="simbulos()">
+                <input type="button" value="-" id="equação" onclick="simbulos()">
+                <input type="button" value="/" id="equação" onclick="simbulos()">
+                <input type="button" value="x" id="equação" onclick="simbulos()">-->
+            </p>
+        </div>
+        <div>
+            <select name="Tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Matheus01</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-</html>
