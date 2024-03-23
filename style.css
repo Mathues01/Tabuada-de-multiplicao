@@ -2,8 +2,47 @@ body {
     background-image:linear-gradient(black, rgb(145, 145, 145)) ;
     background-attachment: fixed;
     color: aliceblue;
+    display: grid;
+    place-items: center;
 }
 h1 {
+    background-image: url(imgs/hack.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text ;
     font-size: 50pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
+p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+ .sel {
+    background-image: url(imgs/hack2.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text ;
+    margin-left: 150px;
+    scrollbar-width: none;
+    border: none;
+ }
+
+ .num {
+    background-image: radial-gradient(rgb(0, 0, 0),rgb(21, 255, 0));
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+
+ }
+
+ .bnt {
+    background-image: url(imgs/hack.gif);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+ }
