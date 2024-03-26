@@ -1,9 +1,10 @@
 body { 
-    background-image:linear-gradient(black, rgb(145, 145, 145)) ;
+    background-image:linear-gradient(rgb(5, 201, 22), rgb(0, 0, 0)) ;
     background-attachment: fixed;
     color: aliceblue;
     display: grid;
     place-items: center;
+
 }
 h1 {
     background-image: url(imgs/hack.gif);
@@ -27,9 +28,10 @@ p {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text ;
-    margin-left: 150px;
+    margin-left: 200px;
     scrollbar-width: none;
     border: none;
+    font-size: 25px;
  }
 
  .num {
@@ -37,6 +39,8 @@ p {
     color: aliceblue;
     border: none;
     border-radius: 50px;
+    font-size: 25px;
+    margin-right: 80px;
 
  }
 
@@ -45,4 +49,21 @@ p {
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 50px;
+    font-size: 25px;
+    margin-left: 170px;
+    margin-top: 5px;
+    
+ }
+
+ .bi-plus-lg {
+    font-size: 50px;
+    border: solid 5px black;
+    color: aliceblue;
+    box-shadow: rgb(250, 250, 250) 5px 5px 5px;
+ }
+ .bi-house-fill {
+    font-size: 50px;
+    border: solid 5px black;
+    color: aliceblue;
+    box-shadow: rgb(250, 250, 250) 5px 5px 5px;
  }
